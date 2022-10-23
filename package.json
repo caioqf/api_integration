@@ -1,28 +1,37 @@
 {
-  "type": "module",
-  "name": "api_integration",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js",
-    "lint": ""
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@hubspot/api-client": "^7.1.2",
-    "body-parser": "^1.20.1",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "googleapis": "^108.0.0"
-  },
-  "devDependencies": {
-    "@faker-js/faker": "^7.6.0",
-    "eslint": "^8.26.0",
-    "nodemon": "^2.0.20"
-  }
+	"type": "module",
+	"name": "api_integration",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"start": "nodemon src/index.js",
+		"lint": ""
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@hubspot/api-client": "^7.1.2",
+		"body-parser": "^1.20.1",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"googleapis": "^108.0.0"
+	},
+	"devDependencies": {
+		"@babel/preset-env": "^7.19.4",
+		"@faker-js/faker": "^7.6.0",
+		"@types/jest": "^29.2.0",
+		"babel-jest": "^29.2.1",
+		"eslint": "^8.26.0",
+		"jest": "^29.2.1",
+		"nodemon": "^2.0.20"
+	},
+	"jest": {
+		"transform": {
+			"^.+\\.[t|j]sx?$": "babel-jest"
+		}
+	}
 }
