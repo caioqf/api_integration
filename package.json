@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "lint": ""
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
+    "eslint": "^8.26.0",
     "nodemon": "^2.0.20"
   }
 }
