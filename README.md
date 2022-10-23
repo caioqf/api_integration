@@ -90,5 +90,5 @@ E1 - URL do Website
 Para rodar os testes unitários, rode o comando 
 
 ````
-$ npm run test:unit
+$ npm run test
 ````
