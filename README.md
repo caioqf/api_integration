@@ -2,7 +2,7 @@
 
 API integrando planilhas do Google Sheets com a API do HubSpot.
 
-A premissa é cadastrar os contatos salvos em uma planilha como contato no SpotHub através da sua API.
+A premissa é cadastrar os contatos salvos em uma planilha como contato no HubSpot através da sua API.
 
 # Como rodar
 
