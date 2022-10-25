@@ -1,6 +1,6 @@
-# Integração Google Sheets - CRM SpotHub 
+# Integração Google Sheets - CRM HubSpot 
 
-API integrando planilhas do Google Sheets com a API do SpotHub.
+API integrando planilhas do Google Sheets com a API do HubSpot.
 
 A premissa é cadastrar os contatos salvos em uma planilha como contato no SpotHub através da sua API.
 
